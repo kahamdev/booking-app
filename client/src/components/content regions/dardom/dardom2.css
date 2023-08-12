@@ -1,0 +1,74 @@
+.dar-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-dar-container{
+    flex: 40%;
+}
+
+.right-dar-container{
+    flex: 60%;
+}
+
+
+@media screen and (max-width:768px) {
+    .dar-container{
+        flex-direction: column;
+    }
+}
+
+.right-dar-container-item1,
+.right-dar-container-item2,
+.right-dar-container-item3,
+.right-dar-container-item4,
+.right-dar-container-item5{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    box-shadow:0 2px 2px 0 rgba(0, 0, 118, 0.6);
+}
+
+
+.form-item input[type=text]{
+   background-color: white;
+   border-radius:10px;
+   color: blue;
+}
+
+.form-input{
+    width:100%;
+}
+
+.right-dar-container-item1:hover{
+    background-color: #115173;
+    color:#cccc;
+    transform: scaleY(1.2);
+    transition: all 0.8s ease-in-out 0.2s;
+}
+.right-dar-container-item2:hover{
+    background-color: #115173;
+    color:#cccc;
+    transform: scaleY(1.2);
+    transition: all 0.8s ease-in-out 0.2s;
+}
+.right-dar-container-item3:hover{
+    background-color: #115173;
+    color:#cccc;
+    transform: scaleY(1.2);
+    transition: all 0.8s ease-in-out 0.2s;
+}
+.right-dar-container-item4:hover{
+    background-color: #115173;
+    color:#cccc;
+    transform: scaleY(1.2);
+    transition: all 0.8s ease-in-out 0.2s;
+}
+.right-dar-container-item5:hover{
+    background-color: #115173;
+    color:#cccc;
+    transform: scaleY(1.2);
+    transition: all 0.8s ease-in-out 0.2s;
+}

@@ -1,0 +1,32 @@
+.dar-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.left-dar-container{
+    flex: 40%;
+}
+
+.right-dar-container{
+    flex: 60%;
+}
+
+
+@media screen and (max-width:768px) {
+    .dar-container{
+        flex-direction: column;
+    }
+}
+
+.right-dar-container-item1,
+.right-dar-container-item2,
+.right-dar-container-item3,
+.right-dar-container-item4,
+.right-dar-container-item5{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+

@@ -1,0 +1,35 @@
+.helpContainer{
+    display: flex;
+    padding: 10px;
+}
+
+.leftHelp{
+    flex:70%;
+}
+
+.rightHelp{
+    flex: 30%;
+    background-color: #cccc;
+    padding: 20px;
+}
+@media screen and(max-width:768px) {
+    .helpContainer{
+        flex-direction: column;
+        background-color: #115173;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .helpContainer{
+        flex-direction: column;
+    }
+    .leftHelp h1{
+        font-size: 26px;
+    }
+
+    .leftHelp h3{
+        font-size: 16px;
+    }
+    
+}

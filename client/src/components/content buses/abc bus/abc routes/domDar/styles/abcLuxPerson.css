@@ -1,0 +1,49 @@
+.person-form{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:768px){
+    .person-form{
+        flex-direction: column;
+    }
+}
+
+.person-form-right{
+    flex: 60%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #115173;
+    color: white;
+}
+
+.person-form-left{
+    flex: 40%;
+    padding: 10px;
+    margin: 20px;
+}
+
+.right-div1{
+    border: 1px solid #115173;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.right-div2{
+    border: 1px solid #115173;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.mytoast{
+    background-color: #cccc;
+    color: #115173;
+    margin-top: 55px;
+
+}
+
+@media screen and (max-width:768px) {
+
+   .mytoast{
+    margin-top: 35px;
+} 
+}

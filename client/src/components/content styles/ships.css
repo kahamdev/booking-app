@@ -1,0 +1,53 @@
+.bgShip{
+    background-image: linear-gradient(to right,#115173,#ccc);
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(228, 225, 219, 1);
+    font-weight: bold;
+}
+
+
+.shipContainer{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .shipContainer{
+        flex-direction: column;
+    }
+
+    .shipRoad{
+        width: 100%;
+    }
+
+    .shipRoad h1{
+        font-size: 26px;
+    }
+    
+}
+
+.left_shipContainer{
+    flex:50%;
+    margin: 20px;
+}
+
+.left_shipContainer img{
+    width: 100%;
+    height: 360px;
+    border-radius: 25px;
+}
+
+.right_shipContainer{
+    flex: 50%;
+    margin: 20px;
+}
+
+.shipRoad{
+    background-image: url('../content images/ship photos/ship03.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 20px;
+}

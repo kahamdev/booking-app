@@ -1,0 +1,52 @@
+.bgHotel{
+    background-image: linear-gradient(to right,#115173,#ccc);
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(228, 225, 219, 1);
+    font-weight: bold;
+}
+
+.hotelContainer{
+    display: flex;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .hotelContainer{
+        flex-direction: column;
+    }
+
+    .hotelPack{
+        width: 100%;
+    }
+
+    .hotelPack h1{
+        font-size: 25px;
+    }
+    
+}
+
+.left_hotelContainer{
+    flex:50%;
+    margin: 20px;
+}
+
+.left_hotelContainer img{
+    width: 100%;
+    height: 360px;
+    border-radius: 25px;
+}
+
+.right_hotelContainer{
+    flex: 50%;
+    margin: 20px;
+}
+
+.hotelPack{
+    background-image: url('../content images/hotel photos/kilimanjaro02.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding: 20px;
+}

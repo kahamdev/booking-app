@@ -1,0 +1,79 @@
+.abcHome{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.abcHome-top{
+    background-image:url('../../../content images/bus photos/roadBus04.jpg');
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+
+
+input[type=date]{
+    padding: 10px;
+    margin: 10px;
+    flex: 0.33;
+}
+
+select{
+    padding: 10px;
+    margin: 10px;  
+    flex: 0.33;
+}
+
+
+
+.form-items{
+    background-color: #115173;
+    padding: 20px;
+
+}
+
+.form-pack{
+    display: flex;
+}
+@media screen and (max-width:768px) {
+    .form-pack{
+        flex-direction: column;
+        margin-top: -10px;
+    }
+    .text-show{
+        display: none;
+    }
+}
+
+
+.abcRoute{
+    display: flex;
+}
+
+.abcRoute1{
+    border: 2px solid #115173;
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+.abcRoute2{
+    border: 2px solid #115173;
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.abcRoute3{
+    border: 2px solid #115173;
+    flex: 25%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section{
+    background-color: #115173;
+    padding: 10px;
+}
